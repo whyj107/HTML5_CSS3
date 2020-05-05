@@ -1,0 +1,22 @@
+﻿h1, div, p, article, li {
+    /*background-color: pink;*/
+}
+
+strong, span, a {
+    background-color: skyblue;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+}
+
+.display_block {
+    background-color: pink;
+}
+
+.display_inline {
+    background-color: skyblue;
+}

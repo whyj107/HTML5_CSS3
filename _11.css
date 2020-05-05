@@ -1,0 +1,59 @@
+﻿body {
+    background-color: skyblue;
+}
+
+.inner {
+    background-color: pink;
+    border-width: 4px;
+}
+
+.one {
+    border-style: solid;
+    border-color: black;
+}
+
+.two {
+    border-style: solid dashed;
+    border-color: red;
+}
+
+.three {
+    border-style: solid dashed dotted;
+    border-color: blue;
+}
+
+.four {
+    border-style: solid dashed dotted double;
+    border-color: green;
+}
+
+#main1 {
+    width: 200px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#left {
+    float: left;
+    background: pink;
+}
+
+#right {
+    background: lemonchiffon;
+    padding: 24px;
+    border: red solid 4px;
+    box-sizing: border-box;
+}
+#up {
+    background: pink;
+    box-sizing: content-box;
+}
+
+#down {
+    background: lemonchiffon;
+    box-sizing: border-box;
+}

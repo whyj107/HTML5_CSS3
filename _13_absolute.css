@@ -1,0 +1,28 @@
+body {
+    background-color: skyblue;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+}
+
+.ancestor {
+    border: 2px solid green;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.parent {
+    border: 2px solid red;
+    width: 200px;
+    height: 100px;
+}
+
+.absolute {
+    background-color: pink;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
