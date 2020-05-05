@@ -1,0 +1,26 @@
+﻿.mafia {
+    color: white;
+    background-color: black;
+}
+
+.citizen {
+    color: white;
+    background-color: green;
+}
+
+/* 방문하지 않은 링크일 때 */
+a:link {
+    color: turquoise;
+}
+/* 방문한 링크일 때 */
+a:visited {
+    color: green;
+}
+/* 링크에 마우스를 올렸을 때 */
+a:hover {
+    background-color: yellow;
+}
+/* 선택된 링크일 때 */
+a:active {
+    background-color: blue;
+}
