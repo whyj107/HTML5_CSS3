@@ -1,0 +1,33 @@
+﻿.container {
+    background-color: skyblue;
+    height: 48px;
+    padding: 12px;
+    margin-bottom: 16px;
+    display: flex;
+    width: 400px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background: pink;
+    flex-grow: 1;
+}
+
+.grow {
+    flex-grow: 2;
+}
+
+.auto > .item {
+    flex-basis: auto;
+}
+
+.none > .item {
+    flex-basis: 0;
+}
+
+.numb > .item {
+    flex-basis: 100px;
+}
