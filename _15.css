@@ -1,0 +1,38 @@
+.main {
+    display: grid;
+    grid-template-rows: 128px auto 240px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "hd hd hd" "nav content ad" "nav ft ft";
+}
+
+header, nav, section, aside, footer {
+    border: 4px solid;
+    padding: 8px;
+    margin: 2px;
+    text-align: center;
+}
+
+header {
+    grid-area: hd;
+    border-color: purple;
+}
+
+nav {
+    grid-area: nav;
+    border-color: blue;
+}
+
+section {
+    grid-area: content;
+    border-color: yellow;
+}
+
+aside {
+    grid-area: ad;
+    border-color: red;
+}
+
+footer {
+    grid-area: ft;
+    border-color: green;
+}

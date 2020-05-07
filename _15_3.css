@@ -1,0 +1,40 @@
+.container {
+    background: aliceblue;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid: repeat(3,100px) / repeat(3,100px);
+    grid-gap: 8px;
+    /* 아래의 값 들을 조합하여 직접 눈으로 살펴 봅시다. */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.container1 {
+    place-content: stretch;
+    place-items: end;
+}
+
+.item1 {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+}

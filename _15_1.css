@@ -1,0 +1,60 @@
+.main {
+    display: grid;
+    grid-template: "hd hd hd" 128px "nav content ad" auto "ft ft ft" 240px / 1fr 3fr 1fr;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    /* 위와 아래의 코드는 동일합니다. */
+    grid-gap: 16px 16px;
+    /* 모두 동일한 코드입니다. */
+    grid-gap: 16px;
+}
+
+header, nav, section, aside, footer {
+    border: 4px solid;
+    padding: 8px;
+    text-align: center;
+}
+
+header {
+    grid-area: hd;
+    border-color: purple;
+}
+
+nav {
+    grid-area: nav;
+    border-color: blue;
+}
+
+section {
+    grid-area: content;
+    border-color: yellow;
+}
+
+aside {
+    grid-area: ad;
+    border-color: red;
+}
+
+footer {
+    grid-area: ft;
+    border-color: green;
+} 
+nav {
+    grid-area: nav;
+    border-color: blue;
+}
+
+section {
+    grid-area: content;
+    border-color: yellow;
+}
+
+aside {
+    grid-area: ad;
+    border-color: red;
+}
+
+footer {
+    grid-area: ft;
+    border-color: green;
+}
