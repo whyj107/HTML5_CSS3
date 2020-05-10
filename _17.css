@@ -1,0 +1,48 @@
+﻿.main1 {
+    color: red;
+}
+
+.sub1 {
+    color: blue;
+}
+
+.main2 {
+    background-color: skyblue;
+    width: 100px;
+    padding: 24px;
+}
+
+.sub2 {
+    background-color: pink;
+    padding: inherit;
+}
+
+/*
+p {
+    background-color: black;
+}
+
+p {
+    color: red !important;
+}
+*/
+#id {
+    color: yellow;
+}
+
+p.class {
+    color: green;
+}
+
+.class {
+    color: blue;
+}
+/*
+p {
+    color: purple;
+}
+
+* {
+    color: white;
+}
+*/
